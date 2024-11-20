@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(204, 204, 204);
+        }
+        h1,h2{
+            text-align: center;
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration-line: none;
+        }
+        .container{
+            background-color: rgb(255,255,255);
+            border-radius: 5px;
+            padding: 5%;
+            margin: 2% 10%
+        }
+    
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>My Plalist</h1>
+    <div>
+        <ul>
+            <li><a href="#" target="_blank">Song 1</a></li>
+            <li><a href="#" target="_blank">Song 2</a></li>
+            <li><a href="#" target="_blank">Song 3</a></li>
+            <li><a href="#" target="_blank">Song 4</a></li>
+            <li><a href="#" target="_blank">Song 5</a></li>
+        </ul>
+    </div>
+    <h2>Now Playing...</h2>
+
+    <div class="container">
+        <video src="https://www.w3schools.com/tags/movie.mp4" controls type="video" class=".player_one"></video><br>
+        <h2>MP3 songs</h2>
+        <audio src="https://www.pagalworld.com.se/files/download/id/64630" controls type="audio" class=".player_two">Maan meri jaan</audio>
+   </div>
 
 </body>
-
 </html>
